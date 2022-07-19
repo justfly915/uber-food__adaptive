@@ -1,0 +1,336 @@
+//LD
+@media only screen and (max-width:1920px) {
+
+    .uber-account {
+        padding-bottom: 110px;
+
+        .description {
+            padding: 320px 0 300px;
+        }
+    }
+}
+
+@media only screen and (max-width:1200px) {
+
+
+    .header {
+        padding-bottom: 0;
+
+        .description {
+            margin-top: 2rem;
+            padding-bottom: 13rem;
+        }
+    }
+
+    .uber-account {
+
+        .description {
+            padding: 190px 0 300px;
+        }
+    }
+
+    .getapp {
+
+        &-description__stores {
+            img {
+                height: 55px;
+            }
+        }
+
+        .description {
+            padding-left: 15px;
+
+
+        }
+    }
+
+    .description {
+
+        h2 {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            margin-bottom: 0;
+        }
+
+        .footer__getapp img {
+            height: 30px;
+        }
+    }
+}
+
+//M
+
+@media only screen and (max-width:991px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .discover {
+        padding-bottom: 50px;
+
+        form {
+            input {
+                height: 2.9rem;
+                font-size: .8rem;
+            }
+        }
+
+    }
+
+    .mobile-app {
+        padding-bottom: 140px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .uber-account {
+        padding-bottom: 0;
+        margin-top: -90px;
+
+        .description::before {
+            bottom: 210px;
+        }
+    }
+
+    .track {
+        margin-top: -160px;
+        padding-bottom: 200px;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .getapp {
+        margin-top: -251px;
+        padding-bottom: 0;
+
+        .description {
+            &::before {
+                height: 20px;
+                bottom: 180px;
+                left: -50px;
+            }
+        }
+
+        &-description {
+
+            img {
+                height: 90px;
+            }
+
+            &__stores {
+                img {
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    .description {
+
+        h2 {
+            font-size: 1.2rem;
+            line-height: 2rem;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+        }
+    }
+
+    .btn {
+        font-size: .9rem;
+    }
+
+    .partnership-description {
+        padding: 300px 0 100px;
+
+        &__item {
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .footer {
+
+        &__nav {
+            margin-left: 0;
+        }
+    }
+}
+
+//
+@media only screen and (max-width:768px) {
+
+    .header {
+
+        .description {
+            margin-top: 0rem;
+            padding-bottom: 6rem;
+        }
+    }
+
+    .uber-account {
+
+        .description {
+            padding: 120px 0 300px;
+        }
+    }
+
+    .footer {
+
+        &__nav,
+        &__select-language,
+        &__getapp {
+            text-align: center;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .header {
+        .description {
+            margin-top: -2rem;
+            padding-bottom: 8rem;
+
+            .btn {
+                width: 100%;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .discover {
+        .btn {
+            width: 100%;
+            margin-top: 5px;
+        }
+    }
+
+    .mobile-app {
+
+        .description {
+            text-align: center;
+
+            .btn {
+                margin: 15px 0;
+            }
+
+            &::before {
+                height: 20px;
+                top: -210px;
+                left: 8px;
+            }
+        }
+    }
+
+    .track {
+        margin-top: -270px;
+        padding-bottom: 100px;
+    }
+
+    .getapp {
+        text-align: right;
+
+        .uber-icon {
+            height: 180px;
+        }
+
+        .description {
+            margin: 20px 0;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        &-description {
+            padding: 200px 0 300px;
+
+            &__stores {
+                img {
+                    height: 55px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:575px) {
+
+    ::before {
+        display: none;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .header {
+
+        .description {
+            margin-top: 12rem;
+            padding-bottom: 0rem;
+        }
+    }
+
+    .discover {
+
+        .burger {
+            z-index: -1;
+            margin-top: -60px;
+        }
+    }
+
+    .partnership-description__item {
+        .btn {
+            position: initial;
+            width: 100%;
+        }
+    }
+
+    .footer {
+
+        .fa::before {
+            display: block;
+        }
+
+        &__getapp__stores {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width:459px) {
+    .getapp {
+        &-description {
+            padding: 200px 0 200px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:354px) {
+
+    .getapp {
+        &-description {
+            padding: 200px 0 90px;
+        }
+    }
+}
